@@ -1,15 +1,11 @@
 {
-  "name": "vedmant/laravel-feed-reader",
+  "name": "tuisme/laravel-feed-reader",
   "description": "A simple RSS feed reader for Laravel 5|6",
   "license": "MIT",
   "authors": [
     {
       "name": "Vedmant",
       "email": "vedmant@gmail.com"
-    },
-    {
-      "name": "Andrew Judd",
-      "email": "contact@andrewjudd.ca"
     }
   ],
   "require": {
