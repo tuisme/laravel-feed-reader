@@ -21,21 +21,21 @@
   },
   "autoload": {
     "psr-4": {
-      "Tuisme\\FeedReader\\": "src/"
+      "Vedmant\\FeedReader\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Tuisme\\FeedReader\\Tests\\": "tests"
+      "Vedmant\\FeedReader\\Tests\\": "tests"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Tuisme\\FeedReader\\FeedReaderServiceProvider"
+        "Vedmant\\FeedReader\\FeedReaderServiceProvider"
       ],
       "aliases": {
-        "FeedReader": "Tuisme\\FeedReader\\Facades\\FeedReader"
+        "FeedReader": "Vedmant\\FeedReader\\Facades\\FeedReader"
       }
     }
   }
