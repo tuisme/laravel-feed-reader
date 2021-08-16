@@ -75,7 +75,8 @@ class FeedReader
         $sp->init();
 
         // We are done, so return it
-        return $sp;
+        return mb_convert_encoding($sp, 'UTF-8', 'UTF-8');
+;
     }
 
     /**
